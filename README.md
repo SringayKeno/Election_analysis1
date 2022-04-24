@@ -54,7 +54,12 @@ I counted the votes for each candidate while in the if statement. As I iterated 
 
 
 
-The structure of the dictionary may look similar to this:
+ (beow) Declaring an empty dictionary, candidate_votes = {}
+
+<img width="387" alt="declaring_dict_empty" src="https://user-images.githubusercontent.com/102890151/164988388-1220e85a-445e-4f92-89e6-5999e68c333c.png">
+
+<img width="377" alt="candidate_vote" src="https://user-images.githubusercontent.com/102890151/164988404-e48e59fa-95b3-485b-b635-969496a571a9.png">
+
 
 Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
