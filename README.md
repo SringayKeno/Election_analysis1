@@ -64,15 +64,20 @@ To create each candidate as a key, I used candidate_votes[candidate_name]. When 
 
 Print out of Breakdown of candidate votes and percentage of total votes each candidate received
 
-<img width="400" alt="candidate_election_analysis" src="https://user-images.githubusercontent.com/102890151/164989820-8164481d-3653-4990-b2f2-b4644e39fcb9.png">
+<img width="350" alt="candidate_election_analysis" src="https://user-images.githubusercontent.com/102890151/164989820-8164481d-3653-4990-b2f2-b4644e39fcb9.png">
 
 
 
 
 
-* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes
+* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes*
 
-<img width="272" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
+** Winner was candidate Diana DEGette with a total of 272, 892 votes which was 73.8% of the total votes**
+
+<img width="175" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
+
+
+<img width="372" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
 
 *
 
