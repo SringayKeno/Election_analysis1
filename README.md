@@ -62,7 +62,8 @@ To create each candidate as a key, I used candidate_votes[candidate_name]. When 
 
 <img width="387" alt="candidate_vote_count" src="https://user-images.githubusercontent.com/102890151/164988886-6b199721-04af-4e96-9427-15d237704468.png">
 
-![candidate_election_analysis](https://user-images.githubusercontent.com/102890151/164989791-50474a24-56bb-4b54-a0a6-fabf8644e8d3.png)
+<img width="400" alt="candidate_election_analysis" src="https://user-images.githubusercontent.com/102890151/164989820-8164481d-3653-4990-b2f2-b4644e39fcb9.png">
+
 
 
 
