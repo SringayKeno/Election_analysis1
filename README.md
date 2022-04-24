@@ -15,22 +15,21 @@ Below, a sample of the dataset in CSV file. This was the data format I ran the P
 <img width="350" alt="election_results" src="https://user-images.githubusercontent.com/102890151/164954437-cef85d1b-0669-44bf-9587-028a03ed545f.png">
 
 
-## Election-Audit Results: 
 
-### How many votes cast in this congressional election
+## Election-Audit Results
 
-I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles, the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast. **Total vote count for this US congressional election was 369,711.**
+
+* ### How many votes cast in this congressional election
+
+I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles (election summarry and results) the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast. **Total vote count for this US congressional election was 369,711.**
 
 Initializing variable in code (Viewed below)
 
 <img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
 
+* ### Number of votes and percentage of total votes for each county in the precinct.
 
-
-
-
-
-
+<img width="203" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
 
 
