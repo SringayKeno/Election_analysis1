@@ -27,7 +27,7 @@ Initializing variable in code (Viewed below)
 
 <img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
 
-* ### Number of votes and percentage for each county in the precinct and highest voter turnout
+* ### Number of votes and percentage for each county and highest county voter turnout
 
 As the audit was winding down the election commission requested some additional data to complete the audit which included the voter turnout for each county, 
 the percentage of votes from each county out of the total count and finally, the county with the highest turnout.
@@ -39,6 +39,8 @@ Snapshot of the outfile I created summarizing the election results (Below) for t
 <img width="403" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
 Working from this module’s election_results.csv file, use for loops and conditional statements with membership and logical operators to find the requested results. Then, print the results to the command line and save them to your election_results.txt file
+
+<img width="577" alt="county_code1" src="https://user-images.githubusercontent.com/102890151/164957897-9f153770-d558-4f83-bb2c-eec95c99fb14.png">
 
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
