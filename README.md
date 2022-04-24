@@ -12,12 +12,23 @@ This task is usually done in Excel, but Tom's manager wanted to know if there is
 
 Below, a sample of the dataset in CSV file. This was the data format I ran the Python code through to audit the congressional election results.
 
-<img width="300" alt="election_results" src="https://user-images.githubusercontent.com/102890151/164954437-cef85d1b-0669-44bf-9587-028a03ed545f.png">
+<img width="350" alt="election_results" src="https://user-images.githubusercontent.com/102890151/164954437-cef85d1b-0669-44bf-9587-028a03ed545f.png">
 
 
 ## Election-Audit Results: 
 
 ### How many votes cast in this congressional election
+
+I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles, the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loo calculating a total count. 
+
+Initializing variable in code (Viewed below)
+
+<img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
+
+### Election Results
+-------------------------
+### Total Votes: 369,711
+-------------------------
 
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 Which county had the largest number of votes?
