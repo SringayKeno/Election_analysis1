@@ -40,8 +40,8 @@ Snapshot of the outfile I created summarizing the election results (Image 1 belo
 
 Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 1 above)
 
+<img width="477" alt="county_votes_code" src="https://user-images.githubusercontent.com/102890151/164983603-9651e510-20bc-4dfb-96b4-577635ae2b05.png">
 
-<img width="450" alt="county_code1" src="https://user-images.githubusercontent.com/102890151/164957897-9f153770-d558-4f83-bb2c-eec95c99fb14.png">
 
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
