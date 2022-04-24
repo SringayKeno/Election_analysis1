@@ -27,12 +27,12 @@ Initializing variable in code (Viewed below)
 
 <img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
 
-* ### Number of votes and percentage of total votes for each county in the precinct.
+* ### Number of votes and percentage for each county in the precinct and highest voter turnout
 
 As the audit was winding down the election commission requested some additional data to complete the audit which included the voter turnout for each county, 
 the percentage of votes from each county out of the total count and finally, the county with the highest turnout.
 
-Snapshot of the outfile I created summarizing the election results (Below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Which county had the highest turnout? ?Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
+Snapshot of the outfile I created summarizing the election results (Below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
 
 
 
