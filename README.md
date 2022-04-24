@@ -54,15 +54,17 @@ I counted the votes for each candidate while in the if statement. As I iterated 
 
 
 
- (beow) Declaring an empty dictionary, candidate_votes = {}
+ (Below) Declaring an empty dictionary, candidate_votes = {}
 
 <img width="387" alt="declaring_dict_empty" src="https://user-images.githubusercontent.com/102890151/164988388-1220e85a-445e-4f92-89e6-5999e68c333c.png">
 
+To create each candidate as a key, I used candidate_votes[candidate_name]. When I added candidate_votes[candidate_name] = 0, I am setting each candidate's vote count to zero. Once I set it to zero, then I could start tallying the votes for each candidate.
 <img width="377" alt="candidate_vote" src="https://user-images.githubusercontent.com/102890151/164988404-e48e59fa-95b3-485b-b635-969496a571a9.png">
 
 
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+*
 
-##Election-Audit Summary: 
+## Election-Audit Summary: 
 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
