@@ -37,10 +37,12 @@ the percentage of votes from each county out of the total count and finally, the
 Snapshot of the outfile I created summarizing the election results (Image 1 below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
 
 
-Image 1
+
+Image 3 (beloww) election summary
+
 <img width="375" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
-Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 1 above)
+Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 3 above)
 
 <img width="377" alt="county_votes_code" src="https://user-images.githubusercontent.com/102890151/164983603-9651e510-20bc-4dfb-96b4-577635ae2b05.png">
 
