@@ -41,7 +41,7 @@ Snapshot of the outfile I created summarizing the election results (Image 1 belo
 
 Image 3 (beloww) election summary
 
-<img width="375" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
+<img width="325" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
 Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 3 above)
 
@@ -61,6 +61,8 @@ I counted the votes for each candidate while in the if statement. As I iterated 
 To create each candidate as a key, I used candidate_votes[candidate_name]. When I added candidate_votes[candidate_name] = 0, I am setting each candidate's vote count to zero. Once I set it to zero, then I could start tallying the votes for each candidate.
 
 <img width="387" alt="candidate_vote_count" src="https://user-images.githubusercontent.com/102890151/164988886-6b199721-04af-4e96-9427-15d237704468.png">
+
+Print out of Breakdown of candidate votes and percentage of total votes each candidate received
 
 <img width="400" alt="candidate_election_analysis" src="https://user-images.githubusercontent.com/102890151/164989820-8164481d-3653-4990-b2f2-b4644e39fcb9.png">
 
