@@ -69,7 +69,11 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 
 
 
-* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes
+
+<img width="272" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
+
 *
 
 ## Election-Audit Summary: 
