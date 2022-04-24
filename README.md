@@ -23,7 +23,7 @@ Below, a sample of the dataset in CSV file. This was the data format I ran the P
 
 * ### How many votes cast in this congressional election
 
-I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles (election summarry and results) the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast. **Total vote count for this US congressional election was 369,711.**
+The audit required working with election data from a CSV file and writing a "for/if" loop to get to our desired outputs using floats on vote counts and percentages. I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles (election summarry and results) the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast. **Total vote count for this US congressional election was 369,711.**
 
 Initializing variable in code (Viewed below)
 
@@ -85,4 +85,13 @@ Below print of the complete election_results.txt file
 
 ## Election-Audit Summary: 
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election.
+
+would add some code to tell what percentage of votes for each candidate came from which counties.
+To make the turnout more accurate I would want to find a way to import the eligible voter population and then add the calculations to the election result summary.
+
+One more things we could have added is to analyze the vote percentage for each candidate in each county to understand the voting trend, which will be very helpful for future campaigning.
+
+ Give at least two examples of how this script can be modified to be used for other elections.
+3 counties for this race, but the advantage of Python is the ability to look at large quantities of data with ease. This script looked only at 2 variables - candidate and county.
+
