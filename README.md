@@ -19,18 +19,22 @@ Below, a sample of the dataset in CSV file. This was the data format I ran the P
 
 ### How many votes cast in this congressional election
 
-I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles, the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loo calculating a total count. 
+I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles, the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable called total_votes to zero. This variable which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast. **Total vote count for this US congressional election was 369,711.**
 
 Initializing variable in code (Viewed below)
 
 <img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
 
-### Election Results
--------------------------
-### Total Votes: 369,711
--------------------------
 
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+
+
+
+
+
+
+
+
 Which county had the largest number of votes?
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
