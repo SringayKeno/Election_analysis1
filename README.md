@@ -77,6 +77,8 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 <img width="300" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
 
 
+Below print of the complete election_results.txt file
+
 <img width="450" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
 
 *
