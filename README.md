@@ -12,7 +12,8 @@ This task is usually done in Excel, but Tom's manager wanted to know if there is
 
 Below, a sample of the dataset in CSV file. This was the data format I ran the Python code through to audit the congressional election results.
 
-<img width="350" alt="election_results" src="https://user-images.githubusercontent.com/102890151/164954437-cef85d1b-0669-44bf-9587-028a03ed545f.png">
+<img width="250" alt="csv_election_results" src="https://user-images.githubusercontent.com/102890151/164986645-36ee56e9-ee5d-4d31-9008-c8ecfa95008c.png">
+
 
 
 
@@ -25,7 +26,8 @@ I used Visual Studio to write Python for the audit. After establishing read and 
 
 Initializing variable in code (Viewed below)
 
-<img width="400" alt="total vote counter" src="https://user-images.githubusercontent.com/102890151/164955859-349e1b14-6689-4514-9021-b76ea4d23268.png">
+<img width="387" alt="total_vote" src="https://user-images.githubusercontent.com/102890151/164986772-4aeee55b-c9c1-4346-b374-35fa4d754050.png">
+
 
 * ### Number of votes and percentage for each county and highest county voter turnout
 
@@ -35,7 +37,7 @@ the percentage of votes from each county out of the total count and finally, the
 Snapshot of the outfile I created summarizing the election results (Image 1 below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
 
 
-
+Image 1
 <img width="375" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
 Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 1 above)
