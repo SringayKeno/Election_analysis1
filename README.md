@@ -29,16 +29,23 @@ Initializing variable in code (Viewed below)
 
 * ### Number of votes and percentage of total votes for each county in the precinct.
 
-Snapshot of the outfile I created summarizing the election results (Below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
+As the audit was winding down the election commission requested some additional data to complete the audit which included the voter turnout for each county, 
+the percentage of votes from each county out of the total count and finally, the county with the highest turnout.
+
+Snapshot of the outfile I created summarizing the election results (Below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Which county had the highest turnout? ?Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
 
 
 
 <img width="403" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
+Working from this module’s election_results.csv file, use for loops and conditional statements with membership and logical operators to find the requested results. Then, print the results to the command line and save them to your election_results.txt file
 
-
-Which county had the ?
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+We can count the votes for each candidate while we are in the if statement. As we iterate through each row of the CSV file, we can increment the votes for each candidate by 1. However, we need to link those votes with a candidate. A convenient way to do this is to create a dictionary where the key is each candidate's name and the vote count for that candidate is the value for the key.
+
+The structure of the dictionary may look similar to this:
+
 Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ##Election-Audit Summary: 
