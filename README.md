@@ -59,8 +59,10 @@ I counted the votes for each candidate while in the if statement. As I iterated 
 <img width="387" alt="declaring_dict_empty" src="https://user-images.githubusercontent.com/102890151/164988388-1220e85a-445e-4f92-89e6-5999e68c333c.png">
 
 To create each candidate as a key, I used candidate_votes[candidate_name]. When I added candidate_votes[candidate_name] = 0, I am setting each candidate's vote count to zero. Once I set it to zero, then I could start tallying the votes for each candidate.
-<img width="377" alt="candidate_vote" src="https://user-images.githubusercontent.com/102890151/164988404-e48e59fa-95b3-485b-b635-969496a571a9.png">
 
+<img width="387" alt="candidate_vote_count" src="https://user-images.githubusercontent.com/102890151/164988886-6b199721-04af-4e96-9427-15d237704468.png">
+
+https://github.com/SringayKeno/election_analysis/blob/main/analysis/election_analysis.txt
 
 * ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 *
