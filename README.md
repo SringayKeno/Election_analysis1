@@ -39,7 +39,7 @@ Snapshot of the outfile I created summarizing the election results (Image 1 belo
 
 
 
-Image 3 (beloww) election summary
+Image 3 (below) election summary
 
 <img width="325" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
