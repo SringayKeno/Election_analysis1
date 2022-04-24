@@ -32,13 +32,13 @@ Initializing variable in code (Viewed below)
 As the audit was winding down the election commission requested some additional data to complete the audit which included the voter turnout for each county, 
 the percentage of votes from each county out of the total count and finally, the county with the highest turnout.
 
-Snapshot of the outfile I created summarizing the election results (Below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
+Snapshot of the outfile I created summarizing the election results (Image 1 below) for the audit. **Jefferson had 10.5% of the votes at 38,855. Arapahoe had 6.7% of the toal vote or 24,801 votes. Denver county at 82.8% of the votes (largest percent) and 306,055 votes which was the largest number of votes of the three counties.**
 
 
 
 <img width="375" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
-Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county. Then I, print the results to the command line and saved them to the election_results.txt file (image above)
+Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 1 above)
 
 
 <img width="450" alt="county_code1" src="https://user-images.githubusercontent.com/102890151/164957897-9f153770-d558-4f83-bb2c-eec95c99fb14.png">
