@@ -1,19 +1,19 @@
 # election_analysis
 
-## Overview of Election Audit: The purpose of this election audit analysis
+## Overview of Election Audit: Purpose of this election audit analysis
 
 I assisted a Colorado Board of Elections employee, Tom, in an election audit of the tabulated results for a US Congressional District in Colorado. I was tasked with reporting:
 * The total number of votes cast
 * The total number of votes and percentage of vote for each candidate
 * The winner of the election based on popular vote
 
-This task is usually done in Excel, but Tom's manager wants to know if there is a way to automate the process using Python. If this audit is done successfully
+This task is usually done in Excel, but Tom's manager wanted to know if there is a way to automate the process using Python. If this audit is done successfully with Python, the code would be used to audit other districts and local elections. After the votes were counted it was my job to certify this US Congreessional race.
 
-##Election-Audit Results: 
+## Election-Audit Results: 
 
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+### How many votes cast in this congressional election
 
-How many votes were cast in this congressional election?
+
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 Which county had the largest number of votes?
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
