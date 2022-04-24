@@ -17,6 +17,7 @@ Below, a sample of the dataset in CSV file. This was the data format I ran the P
 
 
 
+
 ## Election-Audit Results
 
 
@@ -47,9 +48,11 @@ Working from the original dataset (csv file) I used for loops and conditional st
 <img width="377" alt="county_votes_code" src="https://user-images.githubusercontent.com/102890151/164983603-9651e510-20bc-4dfb-96b4-577635ae2b05.png">
 
 
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+* ### Breakdown of votes and percentage each candidate received
 
-We can count the votes for each candidate while we are in the if statement. As we iterate through each row of the CSV file, we can increment the votes for each candidate by 1. However, we need to link those votes with a candidate. A convenient way to do this is to create a dictionary where the key is each candidate's name and the vote count for that candidate is the value for the key.
+I counted the votes for each candidate while in the if statement. As I iterated through each row of the CSV file, I incremented the votes for each candidate by 1. However, I needed to link those votes with a candidate. A convenient way to do this is to create a dictionary where the key is each candidate's name and the vote count for that candidate is the value for the key.
+
+
 
 The structure of the dictionary may look similar to this:
 
