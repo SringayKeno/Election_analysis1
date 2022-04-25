@@ -3,14 +3,16 @@
 
 ## Overview of Election Audit:
 
-I assisted Tom, a Colorado Board of Elections employee in an election audit of the tabulated results for a US Congressional District in Colorado. I was tasked with reporting the following:
+I assisted Tom, a Colorado Board of Elections employee in an election audit of the tabulated results for a US Congressional District in Colorado. After the votes were counted it was my job to certify this US Congreessional race. 
+
+I was tasked with reporting the following:
 * The total number of votes cast
 * The total number of votes and percentage of vote for each candidate
 * The winner of the election based on popular vote
 
-The task of doing the audit is usually done in Excel, but Tom's manager wanted to know if there is a way to automate the process using Python. If this audit is done successfully with Python, the code would be used to audit other districts and local elections. After the votes were counted it was my job to certify this US Congreessional race.
+The audit is usually done in Excel, but Tom's manager wanted to know if there is a way to automate the process using Python. If this audit is done successfully with Python, the code would be used to audit other districts and local elections.
 
-Below, a sample of the dataset in CSV file. This was the data format I ran the Python code through to audit the congressional election results.
+Below, a sample of the dataset in CSV file. It was this data format that I ran the Python code through to audit the congressional election results.
 
 <img width="250" alt="csv_election_results" src="https://user-images.githubusercontent.com/102890151/164986645-36ee56e9-ee5d-4d31-9008-c8ecfa95008c.png">
 
