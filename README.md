@@ -81,11 +81,10 @@ Below, print of the complete election_results.txt file
 
 <img width="400" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
 
-<img width="370" alt="code-winning_candidate" src="https://user-images.githubusercontent.com/102890151/165004896-7c91d1c1-eb6c-4422-b5c4-9165e003718c.png">
+ My final task was to determine the winning candidate by the number and percentage of votes. In ordr to do that I first needed to declare the following; (1) a variable that holds an empty string value for the winning candidate, (2) declare a variable for the "winning count" equal to zero and lastly, declare a variable for the "winning_percentage" equal to zero. Code seen below
 
-Declare a variable that holds an empty string value for the winning candidate.
-Declare a variable for the "winning count" equal to zero.
-Declare a variable for the "winning_percentage" equal to zero.
+<img width="370" alt="code-winning_candidate" src="https://user-images.githubusercontent.com/102890151/165004896-7c91d1c1-eb6c-4422-b5c4-9165e003718c.png 
+
 Add the following code before the with open() statement:
 <img width="375" alt="winning_forLoop" src="https://user-images.githubusercontent.com/102890151/165004899-dcbc7dfa-eefc-4b26-8a19-458c314c2c3e.png">
 
