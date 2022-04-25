@@ -23,14 +23,17 @@ Below, a sample of the dataset in CSV file. It was this data format that I ran t
 ## Election-Audit Results
 
 
-* ### How many votes cast in this congressional election
+* ### Total votes cast in this congressional election
 
-The audit required working with election data from a CSV file and writing a "for/if" loops to get to the desired outputs using floats on vote counts and percentages. I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles (election summary and results) the first task was to count of the number of total votes. To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable and called it "total_votes" and equalled it to zero. This variable, which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes caststarting with 0. **Total vote count for this US congressional election was 369,711.**
+The audit required working with election data from a CSV file and writing a "for/if" loops to get to the desired outputs using floats on vote counts and percentages. I used Visual Studio to write Python for the audit. After establishing read and write connections to the data and outfiles (election summary and results) the first task was to count of the number of total votes. 
+
+To count up all the votes, I needed to initialize a variable. For convenience, I initialized a variable and called it "total_votes" and equalled it to zero. This variable, which is called an accumulator, increments by 1 as it reads each row in the for loop as it calculates the total votes cast starting with 0. 
 
 Initializing variable in code (below)
 
 <img width="400" alt="total_vote" src="https://user-images.githubusercontent.com/102890151/164986772-4aeee55b-c9c1-4346-b374-35fa4d754050.png">
 
+**The total vote count for this US congressional election was 369,711.**
 
 * ### Number of votes and percentage for each county and highest county voter turnout
 
@@ -44,7 +47,7 @@ Image 3 (below) election summary or election_results.txt file
 
 <img width="325" alt="Screenshot (47)" src="https://user-images.githubusercontent.com/102890151/164957031-fbe5ac78-b22d-48b3-8093-7188413a0b8d.png">
 
-Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, print the results to the command line and saved them to the election_results.txt file (image 3 above)
+Working from the original dataset (csv file) I used for loops and conditional statements with membership and logical operators to find the number of votes and percentage of total votes for each county (Seen in image below). Then I, "print" the results to the command line and saved them to the election_results.txt file (image 3 above)
 
 <img width="400" alt="county_votes_code" src="https://user-images.githubusercontent.com/102890151/164983603-9651e510-20bc-4dfb-96b4-577635ae2b05.png">
 
@@ -55,7 +58,7 @@ I counted the votes for each candidate while in the if statement. As I iterated 
 
 
 
- (Below) First step in creating the dictionry was declaring an empty dictionary, candidate_votes = {}
+ (Below) First step in creating the dictionary was declaring an empty dictionary, candidate_votes = {}
 
 <img width="387" alt="declaring_dict_empty" src="https://user-images.githubusercontent.com/102890151/164988388-1220e85a-445e-4f92-89e6-5999e68c333c.png">
 
@@ -71,17 +74,7 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 
 
 
-* ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes*
-
-**The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
-
-<img width="250" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
-
-
-
-Below, print of the complete election_results.txt file
-
-<img width="400" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
+* ### Winning candidate, their vote count, and percentage of the total votes*
 
  My final task was to determine the winning candidate by the number and percentage of votes. In ordr to do that I first needed to declare the following; (1) a variable that holds an empty string value for the winning candidate, (2) declare a variable for the "winning count" equal to zero and lastly, declare a variable for the "winning_percentage" equal to zero. Code seen below
 
@@ -91,6 +84,16 @@ Below, print of the complete election_results.txt file
 Then select the candidate as the "winning candidate" from the candidate_options list.
                                                     
 <img width="375" alt="winning_forLoop" src="https://user-images.githubusercontent.com/102890151/165004899-dcbc7dfa-eefc-4b26-8a19-458c314c2c3e.png">
+
+**The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
+
+Printout below
+<img width="250" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
+
+Below, print of the complete election_results.txt file
+
+<img width="400" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
+
 
 ## Election-Audit Summary: 
 
