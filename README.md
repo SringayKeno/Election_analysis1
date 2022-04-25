@@ -74,7 +74,7 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 
 
 
-* ### Winning candidate, their vote count, and percentage of the total votes*
+* ### Winning candidate, their vote count, and percentage of the total votes
 
  My final task was to determine the winning candidate by the number and percentage of votes. In ordr to do that I first needed to declare the following; (1) a variable that holds an empty string value for the winning candidate, (2) declare a variable for the "winning count" equal to zero and lastly, declare a variable for the "winning_percentage" equal to zero. Code seen below
 
@@ -83,7 +83,7 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
  Next in looping through the vote counts, I could use an if statement to check if the first vote count for a candidate is greater than zero. Then if the statement was true, that vote count will be equal to the "winning count." At the same time, I can set that candidate's percentage of the vote equal to the "winning percentage."
 Then select the candidate as the "winning candidate" from the candidate_options list.
                                                     
-<img width="375" alt="winning_forLoop" src="https://user-images.githubusercontent.com/102890151/165004899-dcbc7dfa-eefc-4b26-8a19-458c314c2c3e.png">
+<img width="417" alt="code-winning_candidate" src="https://user-images.githubusercontent.com/102890151/165010037-4f38d150-490c-43fa-b5ec-0f85699a733c.png">
 
 **The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
 
