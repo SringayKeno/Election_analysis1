@@ -87,7 +87,6 @@ Then select the candidate as the "winning candidate" from the candidate_options 
 
 **The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
 
-Printout below
 <img width="250" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
 
 Below, print of the complete election_results.txt file
