@@ -103,6 +103,6 @@ Tom was pleased with the audit and is going to submit the election audit results
 
 ### Examples of how this script can be modified to be used for other elections
 
-* One benefit of the Python code is the ability to look at large quantities of data with ease. This script looked only at 2 variables - candidate and county, however other variables could be added or taken out of the code as needed, making it very versitile.
+* One benefit of the Python code is the ability to look at large quantities of data with ease. This script in the election analysis only looked at two variables; candidate and county, however other variables could be added or taken out of the code as needed, making it very versatile
 * Secondly, those variables can be analyzed in additinal ways. For example, taking the two variable mentioned in the irst bullet point, the code could be used to analyze the vote percentage for each candidate in each county.
 
