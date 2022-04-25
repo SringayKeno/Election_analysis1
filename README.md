@@ -85,7 +85,9 @@ Below, print of the complete election_results.txt file
 
 <img width="370" alt="code-winning_candidate" src="https://user-images.githubusercontent.com/102890151/165004896-7c91d1c1-eb6c-4422-b5c4-9165e003718c.png 
 
-Add the following code before the with open() statement:
+ Next in looping through the vote counts, I could use an if statement to check if the first vote count for a candidate is greater than zero. Then if the statement was true, that vote count will be equal to the "winning count." At the same time, I can set that candidate's percentage of the vote equal to the "winning percentage."
+Then select the candidate as the "winning candidate" from the candidate_options list.
+                                                    
 <img width="375" alt="winning_forLoop" src="https://user-images.githubusercontent.com/102890151/165004899-dcbc7dfa-eefc-4b26-8a19-458c314c2c3e.png">
 
 ## Election-Audit Summary: 
