@@ -71,12 +71,13 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 
 * ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes*
 
-**Winner was candidate Diana DeGette with a total of 272,892 votes which was 73.8% of the total votes**
+**The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
 
 <img width="350" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
 
 
-Below print of the complete election_results.txt file
+
+Below, print of the complete election_results.txt file
 
 <img width="400" alt="winner_election_analysis" src="https://user-images.githubusercontent.com/102890151/164996680-7d3e8d00-a6b5-4a16-a2cc-7d97a4e52301.png">
 
@@ -90,13 +91,11 @@ Add the following code before the with open() statement:
 
 ## Election-Audit Summary: 
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election.
+Tom was pleased with the audit and is going to submit the election audit results to the election commission. Since the audit was done successfully with Python, the code could be used to audit other districts and local elections.
 
-would add some code to tell what percentage of votes for each candidate came from which counties.
-To make the turnout more accurate I would want to find a way to import the eligible voter population and then add the calculations to the election result summary.
 
-One more things we could have added is to analyze the vote percentage for each candidate in each county to understand the voting trend, which will be very helpful for future campaigning.
+### Two examples of how this script can be modified to be used for other elections
 
- Give at least two examples of how this script can be modified to be used for other elections.
-3 counties for this race, but the advantage of Python is the ability to look at large quantities of data with ease. This script looked only at 2 variables - candidate and county.
+* One benefit of the Python code is the ability to look at large quantities of data with ease. This script looked only at 2 variables - candidate and county, however other variables could be added or taken out of the code as needed, making it very versitile.
+* Secondly, those variables can be analyzed in additinal ways. For example, taking the two variable mentioned in the irst bullet point, the code could be used to analyze the vote percentage for each candidate in each county.
 
