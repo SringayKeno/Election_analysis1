@@ -73,7 +73,7 @@ Print out of Breakdown of candidate votes and percentage of total votes each can
 
 **The winner was candidate, Diana DeGette, with a total of 272,892 votes which was 73.8% of the total votes**
 
-<img width="350" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
+<img width="250" alt="winner_election_analysis_final" src="https://user-images.githubusercontent.com/102890151/164996802-b1ac61f8-8bed-4871-b31e-27949dec8f7f.png">
 
 
 
@@ -91,10 +91,10 @@ Add the following code before the with open() statement:
 
 ## Election-Audit Summary: 
 
-Tom was pleased with the audit and is going to submit the election audit results to the election commission. Since the audit was done successfully with Python, the code could be used to audit other districts and local elections.
+Tom was pleased with the audit and is going to submit the election audit results to the election commission. Since the audit was done successfully with Python, the code could be used to audit other districts and local elections. I give some xxamples of how this script can be modified to be used for other elections below.
 
 
-### Two examples of how this script can be modified to be used for other elections
+### Examples of how this script can be modified to be used for other elections
 
 * One benefit of the Python code is the ability to look at large quantities of data with ease. This script looked only at 2 variables - candidate and county, however other variables could be added or taken out of the code as needed, making it very versitile.
 * Secondly, those variables can be analyzed in additinal ways. For example, taking the two variable mentioned in the irst bullet point, the code could be used to analyze the vote percentage for each candidate in each county.
