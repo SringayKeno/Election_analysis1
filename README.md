@@ -3,7 +3,7 @@
 
 ## Overview of Election Audit:
 
-I assisted Tom, a Colorado Board of Elections employee in an election audit of the tabulated results for a US Congressional District in Colorado. I was tasked with reporting:
+I assisted Tom, a Colorado Board of Elections employee in an election audit of the tabulated results for a US Congressional District in Colorado. I was tasked with reporting the following:
 * The total number of votes cast
 * The total number of votes and percentage of vote for each candidate
 * The winner of the election based on popular vote
